@@ -1,0 +1,12 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/javascript-node",
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {
+            "configureZshAsDefaultShell": true
+        },
+        "ghcr.io/devcontainers/features/docker-in-docker:3": {
+            "moby": false
+        },
+        "ghcr.io/stu-bell/devcontainer-features/claude-code:0": {}
+    }
+}
